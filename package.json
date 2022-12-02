@@ -1,0 +1,17 @@
+{
+  "name": "xaufe-calendar",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "ics": "^2.41.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "run": "tsc -p tsconfig.json && node dist/generator/calendar_2022_2.js"
+  }
+}
